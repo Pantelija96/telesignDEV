@@ -12,4 +12,12 @@ class FrontendController extends Controller
     public function showLogin(){
         return view('pages.login', $this->data);
     }
+
+    public function showLayout(){
+        return view('layout', $this->data);
+    }
+
+    public function showHome(){
+        return view('pages.home', $this->data);
+    }
 }
