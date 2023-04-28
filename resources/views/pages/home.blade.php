@@ -33,7 +33,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card-body">
 
                     <div class="row mb-3">
@@ -175,6 +174,12 @@
                     </table>
                 </div>
 
+            </div>
+            <div class="card-footer d-sm-flex justify-content-end align-items-sm-center py-sm-2">
+                <button type="button" class="btn btn-primary mt-3 mt-sm-0 w-100 w-sm-auto">
+                    <i class="ph-gear-six me-2"></i>
+                    EXECUTE
+                </button>
             </div>
         </div>
 
