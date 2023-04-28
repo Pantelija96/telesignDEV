@@ -18,7 +18,9 @@
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
+    @yield('additionalThemeJS')
     <script src="{{asset('/')}}assets/js/app.js"></script>
+    @yield('additionalPageJS')
     <!-- /theme JS files -->
 
 </head>
@@ -35,7 +37,7 @@
         </div>
 
         <div class="navbar-brand flex-1 flex-lg-0">
-            <a href="index.html" class="d-inline-flex align-items-center">
+            <a href="{{url('/home')}}" class="d-inline-flex align-items-center">
                 <img src="{{asset('/')}}assets/img/telesignBlueLogo.png" alt="Telesign blue logo">
             </a>
         </div>
@@ -46,7 +48,7 @@
 
             <li class="nav-item nav-item-dropdown-lg dropdown ms-lg-2">
                 <a href="#" class="navbar-nav-link align-items-center rounded-pill p-1" data-bs-toggle="dropdown">
-                    <i class="ph-user-square ph-2x me-1"></i><span class="d-lg-inline-block mx-lg-2">Victoria</span>
+                    <i class="ph-user-square ph-2x me-1"></i><span class="d-lg-inline-block mx-lg-2">Pantelija</span>
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-end">
@@ -132,7 +134,7 @@
                 <div class="page-header-content d-lg-flex">
                     <div class="d-flex">
                         <h4 class="page-title mb-0">
-                            Page name = @yield('pageName')
+                            @yield('pageName')
                         </h4>
 
                     </div>
@@ -143,7 +145,7 @@
 
             <!-- Content area -->
             <div class="content">
-
+                @yield('content')
             </div>
             <!-- /content area -->
 
