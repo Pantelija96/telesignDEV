@@ -64,7 +64,7 @@
                             <div class="card-body">
                                 <div class="text-center mb-3">
                                     <div class="d-inline-flex align-items-center justify-content-center mb-4 mt-2">
-                                        <img src="{{asset('/')}}assets/img/telsignBlueLogo.png" class="h-48px" alt="">
+                                        <img src="{{asset('/')}}assets/img/telesignBlueLogo.png" class="h-48px" alt="">
                                     </div>
                                     <h3 class="mb-0">Login to your account</h3>
                                 </div>

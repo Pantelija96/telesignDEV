@@ -37,10 +37,10 @@
 
                     <div class="row mb-3">
                         <label class="col-lg-3 col-form-label text-center fs-lg">New number:</label>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-8">
                             <input type="text" class="form-control" placeholder="+123 4567890">
                         </div>
-                        <div class="col-lg-3 text-center">
+                        <div class="col-lg-3 col-4 text-center">
                             <button type="button" class="btn btn-primary">
                                 Add
                                 <i class="ph-plus-circle ms-2"></i>
